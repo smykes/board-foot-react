@@ -1,0 +1,35 @@
+.screen {
+  width: 100%;
+  height:auto;
+  background-color: #282828;
+  color: #fff;
+  border-top: 3px solid $react-blue;
+  font-family: 'helvetica';
+  text-align: right;
+  line-height: 48px;
+  font-size: 48px;
+  height:105px;
+  padding: 10px;
+  .screen__count {
+    display: block;
+    clear:both;
+  }
+  box-sizing: border-box;
+  .label__screen {
+    color: black;
+    background-color: #F4F3F4;
+    width: auto;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    line-height: 14px;
+    opacity: 0.6;
+    clear: both;
+    display: block;
+    font-size: 8px;
+    width: 60px;
+    text-align: center;
+    float: right;
+    margin: 0;
+  }
+}
